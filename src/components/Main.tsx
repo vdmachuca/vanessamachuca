@@ -18,7 +18,8 @@ function Main() {
         </div>
         <div className="content">
           <h1>Vanessa Machuca</h1>
-          <p>Creative thinker interest in translating data to action.</p>
+          <p>I am a data scientist and creative thinker with a background in math, ecology, GIS, and applied remote sensing.</p>
+          <p>I want to use my skillset to support environmental justice, conservation, and climate action.</>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/vdmachuca" target="_blank" rel="noreferrer"><GitHubIcon/></a>
