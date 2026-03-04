@@ -12,27 +12,16 @@ const labelsFirst = [
     "ArcGIS",
     "QGIS",
     "GitHub",
-    "xarray",
-    "zarr",
-    "cartopy",
-    "pandas",
-    "numpy",
-    "scipy",
-    "geopandas",
 ];
 
 const labelsSecond = [
-    "AWS",
-    "Slurm",
-];
-
-const labelsThird = [
     "remotely sensed data analysis",
     "reproducible workflows",
     "unit testing",
     "scientific communication",
     "climate dataset generation",
 ];
+
 
 function Expertise() {
     return (
@@ -43,7 +32,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Data Science</h3>
-                    <p>Extensive experience bridnging data to action. </p>
+                    <p>Extensive experience in processing and analyzing a variety of datasets, from weather stations to satellites to cliamte models.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -55,7 +44,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>Geospatial</h3>
-                    <p>Background in ecology, remote sensing, and GIS.</p>
+                    <p>Open Science and Software</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -66,7 +55,7 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>Ecological perspectice</h3>
+                    <h3>Stakeholder Engagement</h3>
                     <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
